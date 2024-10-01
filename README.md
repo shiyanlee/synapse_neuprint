@@ -7,3 +7,4 @@ retrieving synapse data from neuprint
 - Logic behind finally choosing the regions in hemibrain  for the hulls.
 - Exploration of synaptic counts
 - Visualisation using navis and neuprint
+- Embed the html graphs in the readme for quick visualisation
