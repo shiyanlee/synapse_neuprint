@@ -23,7 +23,7 @@ The `synapse_count` feature allows users to adjust the confidence level (CL) and
 - **Embed the html graphs in the readme for quick visualisation**
 
 [Download to interact with the 3D visualization](https://github.com/shiyanlee/synapse_neuprint/blob/main/figures/htmls/interactive_brain%26hull_3d.html)
-![Brain Hull Visualization](./figures/svgs/brainhull_mesh.svg.zip)
+![Brain Hull Visualization](./figures/svgs/brainhull_mesh.png)
 
 The above visualisation shows the neuron structures and convex hulls mapped to the hemibrain.
 
