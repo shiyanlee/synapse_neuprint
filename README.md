@@ -21,9 +21,9 @@ The `synapse_count` feature allows users to adjust the confidence level (CL) and
 🪞**Mirror/flipping hack for navis template brains in here.** `navis.mirror_brain()` is restricted to specific data types and cannot be directly applied to brain templates. As an alternative method,  the original vertices and faces from the volume mesh from the brain template is extracted. To achieve the desired anatomical orientation, we constructed a rotation matrix for reflection across the Z-axis and defined additional rotation matrices for reflections across the XY-plane and YZ-plane. This approach can potentially be adapted for other mesh volumes if an orientation adjustments is required.
 
 - **Embed the html graphs in the readme for quick visualisation**
-## 3D Visualization of Synaptic Clusters
 
-[Click here to interact with the 3D visualization](https://github.com/shiyanlee/synapse_neuprint/blob/main/figures/htmls/interactive_brain%26hull_3d.html)
+[Download to interact with the 3D visualization](https://github.com/shiyanlee/synapse_neuprint/blob/main/figures/htmls/interactive_brain%26hull_3d.html)
+![Brain Hull Visualization](./figures/svgs/brainhull_mesh.svg.zip)
 
 The above visualisation shows the neuron structures and convex hulls mapped to the hemibrain.
 
