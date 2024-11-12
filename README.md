@@ -1,7 +1,5 @@
 # synapse_neuprint
-retrieving synapse data from neuprint 
 
-### TODO
 🚩 **What was the problem?**
 Neuronal synapses captured by electron microscopy (EM) are characterized by their dark appearance due to their protein-dense composition. Between two adjacent cells, the presynaptic site forms the T-bar, where clusters of neurotransmitter vesicles accumulate, while the postsynaptic density (PSD), recognizable by its "teeth-like" structure, represents the output. In high-resolution 3D EM images, synapses are often confused with other darkly stained organelles or with artefacts produced by membrane shrinkages, leading to subjective classifications in ground truth annotations. Nevertheless, an AI model is proposed to analyse visual cues and classify synapses in EM images because manual annotation of synapse is both tedious and expensive.
 
@@ -26,4 +24,3 @@ The `synapse_count` feature allows users to adjust the confidence level (CL) and
 ![Brain Hull Visualization](./figures/svgs/brainhull_mesh.png)
 
 
-- **Add hull generation after pulling data via pymaid.**
