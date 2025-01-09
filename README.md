@@ -5,8 +5,8 @@ Neuronal synapses captured by electron microscopy (EM) are characterized by thei
 
 💡**All solutions we explored and why?**
 The Janelia Hemibrain dataset is a key resource because it is a FIB-SEM volume at 8nm resolution, which contains annotations of pre- and post- synaptic partners. With neuPrint+ project, wide ranges of features can be extracted and subsequently analysed from this dataset, including the confidence levels (CL) of synapses.:
-1. Combinations of ROIs and neurons with the densest populations of synapses is identified, confidence level of synapses is adjusted accordingly 
-2. Synapse points were then partitioned into limited-dimensional clusters using KMeans clustering to constrain the bounds. 
+1. Combinations of ROIs and neurons with the densest populations of synapses are selected
+2. Synapse points (confidence level filtered) were then partitioned into limited-dimensional clusters using KMeans clustering to constrain the bounds. 
 3. From these clusters, variations of convex hulls were generated to achieve the smallest volume containing the largest number of points. 
 4. Once created and ranked, the optimal convex hull from each cluster were transformed into compact cuboids, with outliers removed based on their distance from the centroid. 
 This process produced 3D cubes with smaller, denser regions, minimizing empty space in order to reduce AI computational costs.
