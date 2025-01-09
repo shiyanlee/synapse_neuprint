@@ -15,6 +15,7 @@ This process produced 3D cubes with smaller, denser regions, minimizing empty sp
 In neuPrint, two dataframes, `neuron_df` and `roi_counts_df`, are returned when a NeuronCriteria is applied. 
 * `neuron_df` contains information about neuron types and their respective numbers of pre- and post-synapses. However, a single neuron can intersect multiple brain regions which may lead to a widely distributed data. 
 * `roi_counts_df` provides synapse counts for each ROI but lacks information about the corresponding neuron types.
+
 To address this, we merged both dataframes on body IDs, resulting in a single dataframe that includes both neuron types and ROI information, ranked by per-ROI synapse counts. This approach allows for a composition of ROIs and neurons which ensures unique combinations for coherent analysis.
 
 ⭐ **Exploration of synaptic counts**
